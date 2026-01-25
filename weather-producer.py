@@ -4,7 +4,7 @@ import requests
 from kafka import KafkaProducer
 from kafka.errors import NoBrokersAvailable
 
-API_KEY = '7eeae7baa5314a419e144709262101'
+API_KEY = 'API KEY'
 CITY = 'Chennai'
 URL=f"http://api.weatherapi.com/v1/current.json?key={API_KEY}&q={CITY}&aqi=no"
 
@@ -31,5 +31,6 @@ while True:
         
     except Exception as e:
         print("Producer error:",e)
+
 
 
