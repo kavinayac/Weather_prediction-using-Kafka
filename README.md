@@ -99,8 +99,6 @@ MODEL_PATH=models/weather_model.pkl
 - Dockerfile
 - docker-compose.yml
 
-Adapt the above to match the actual repository layout.
-
 ## Troubleshooting
 
 - If producers cannot connect: ensure Kafka is running and `KAFKA_BOOTSTRAP_SERVERS` is set correctly.
