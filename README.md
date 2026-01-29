@@ -107,14 +107,4 @@ Adapt the above to match the actual repository layout.
 - Topic not found: create the topic manually or configure your producer to auto-create topics.
 - Permissions / network errors: check advertised listeners and Docker networking if running Kafka in containers.
 
-## Contributing
 
-Contributions welcome. Please open an issue describing the change and a pull request with tests and documentation updates.
-
-## License
-
-Specify your license here (e.g., MIT). If you don't want a license, add "All rights reserved.".
-
-## Contact
-
-Maintainer: kavinayac
